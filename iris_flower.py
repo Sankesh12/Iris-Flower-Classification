@@ -5,7 +5,7 @@ import pickle
 # Load model
 model = pickle.load(open('model.pkl', 'rb'))
 
-st.title("Iris Flower Classification 🌸")
+st.title("Iris Flower Prediction 🌸")
 
 # Inputs
 sepal_length = st.slider("Sepal Length", 4.0, 8.0)
