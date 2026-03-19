@@ -67,6 +67,9 @@
 
 - Classification Report
 
+# 📸 Project Screenshots
+![image alt](https://github.com/Sankesh12/House-Price-Prediction/blob/main/house5.png)
+![image alt](https://github.com/Sankesh12/House-Price-Prediction/blob/main/house6.png)
   
 
 # 📈 Model Performance
