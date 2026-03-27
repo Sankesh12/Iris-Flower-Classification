@@ -5,7 +5,13 @@ import pickle
 # Load model
 model = pickle.load(open('model.pkl', 'rb'))
 
-st.title("Iris Flower Prediction 🌸")
+st.set_page_config(
+    page_title="Iris Flower Prediction",
+    page_icon="🌸",
+    layout="centered"
+)
+
+st.title("🌸 Iris Flower Prediction")
 
 # Inputs
 sepal_length = st.slider("Sepal Length", 4.0, 8.0)
